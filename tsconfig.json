@@ -1,0 +1,25 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "dist"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./src/inject.ts",
+        "./src/person.ts",
+        "./src/sample.ts"
+    ]
+}
